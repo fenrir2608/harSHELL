@@ -1,15 +1,15 @@
 #!/bin/sh
-# This script installs LiveTerm.
+# This script installs harSHELL.
 #
-# Found a bug? Report it here: https://github.com/Cveinnt/LiveTerm/issues
+# Found a bug? Report it here: https://github.com/fenrir2608/harSHELL/issues
 
 set -e -u
 
-eval "git clone 'https://github.com/Cveinnt/LiveTerm.git'"
+eval "git clone 'https://github.com/fenrir2608/harSHELL.git'"
 
-cd LiveTerm
+cd harSHELL
 
-echo "LiveTerm cloned! Installing dependencies..."
+echo "harSHELL cloned! Installing dependencies..."
 
 if command -v yarn >/dev/null 2>&1 ; then
   yarn install
@@ -34,20 +34,20 @@ fi
 cat <<-'EOM'
 
 
- █████        ███                       ███████████                                   
-░░███        ░░░                       ░█░░░███░░░█                                   
- ░███        ████  █████ █████  ██████ ░   ░███  ░   ██████  ████████  █████████████  
- ░███       ░░███ ░░███ ░░███  ███░░███    ░███     ███░░███░░███░░███░░███░░███░░███ 
- ░███        ░███  ░███  ░███ ░███████     ░███    ░███████  ░███ ░░░  ░███ ░███ ░███ 
- ░███      █ ░███  ░░███ ███  ░███░░░      ░███    ░███░░░   ░███      ░███ ░███ ░███ 
- ███████████ █████  ░░█████   ░░██████     █████   ░░██████  █████     █████░███ █████
-░░░░░░░░░░░ ░░░░░    ░░░░░     ░░░░░░     ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░ ░░░░░ 
-                                                                                
 
-LiveTerm has been downloaded to the current directory.
+  _                _____ _    _ ______ _      _      
+ | |              / ____| |  | |  ____| |    | |     
+ | |__   __ _ _ _| (___ | |__| | |__  | |    | |     
+ | '_ \ / _` | '__\___ \|  __  |  __| | |    | |     
+ | | | | (_| | |  ____) | |  | | |____| |____| |____ 
+ |_| |_|\__,_|_| |_____/|_|  |_|______|______|______|
+                                                     
+                                                                                                                                     
+
+harSHELL has been downloaded to the current directory.
 You can start developing it with:
 
-cd LiveTerm && yarn dev
+cd harSHELL && yarn dev
 
 This will open a local port at http://localhost:3000, 
 where you can preview your website. To apply changes, edit:

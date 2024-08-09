@@ -1,11 +1,11 @@
 {
-  "name": "liveterm",
+  "name": "harshell",
   "version": "0.1.0",
   "license": "MIT",
   "author": {
-    "name": "Vincent Wu",
-    "url": "https://cveinnt.com",
-    "email": "contact@wensenwu.com"
+    "name": "Harsh Mehta",
+    "url": "",
+    "email": "harshmehta.m26@gmail.com"
   },
   "scripts": {
     "dev": "next dev",
